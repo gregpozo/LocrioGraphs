@@ -36,7 +36,7 @@ let myChart = document.getElementById('myChart').getContext('2d');
         maintainAspectRatio: false,
         title:{
           display:true,
-          text:'Consumo promedio de un Estadounidense durante el "Holiday Season"',
+          text:'Opinion Sobre Bixby De Usuarios Samsung',
           //fontSize:25
         },
         legend:{
