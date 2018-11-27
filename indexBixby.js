@@ -37,7 +37,7 @@ let myChart = document.getElementById('myChart').getContext('2d');
         title:{
           display:true,
           text:'Opinion Sobre Bixby De Usuarios Samsung',
-          //fontSize:25
+          fontSize:25
         },
         legend:{
           display:true,
