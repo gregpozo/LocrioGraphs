@@ -1,4 +1,4 @@
-let myChart2 = document.getElementById('myChart2').getContext('2d');
+let myChart = document.getElementById('myChart2').getContext('2d');
 
     // Global Options
     Chart.defaults.global.defaultFontFamily = 'Lato';
