@@ -1,4 +1,4 @@
-let myChart = document.getElementById('myChart2').getContext('2d');
+let myChart2 = document.getElementById('myChart2').getContext('2d');
 
     // Global Options
     Chart.defaults.global.defaultFontFamily = 'Lato';
@@ -7,7 +7,7 @@ let myChart = document.getElementById('myChart2').getContext('2d');
     Chart.defaults.global.defaultFontColor = '#777';
     Chart.defaults.global.responsive = true;
 
-    let massPopChart = new Chart(myChart, {
+    let massPopChart = new Chart(myChart2, {
       type:'doughnut', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
       data:{
         labels:['Me Encanta', 'No Me Gusta'],
